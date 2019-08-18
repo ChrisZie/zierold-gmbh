@@ -59,10 +59,22 @@ a:hover {
   color: #fff;
 }
 
+
+
 .title {
   text-align: center;
-  font-size: 50px;
+  font-size: 3em;
+  word-break: keep-all ;
 }
+
+@media (max-width: 576px) {
+  .title {
+    text-align: center;
+    font-size: 2em;
+    word-break: keep-all ;
+  }
+}
+
 .subtitle {
   text-align: center;
   font-weight: 100;
